@@ -1,0 +1,113 @@
+.page {
+  font-family: system-ui, Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 18px
+}
+
+.title {
+  margin: 0;
+  font-size: 28px
+}
+
+.subtitle {
+  margin: 6px 0 16px;
+  opacity: .75
+}
+
+.card {
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 24px;
+  background: #fff
+}
+
+.cardTitle {
+  margin: 0 0 12px;
+  font-size: 18px
+}
+
+.field {
+  margin-bottom: 12px
+}
+
+.label {
+  display: block;
+  font-size: 12px;
+  opacity: .75;
+  margin-bottom: 6px
+}
+
+.input {
+  width: 98%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none
+}
+
+.btn {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer
+}
+
+.btn:hover {
+  opacity: .92
+}
+
+.rowInline {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px
+}
+
+.small {
+  margin: 0;
+  opacity: .85
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  font-weight: 700
+}
+
+.rules {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0
+}
+
+.rule {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 0
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ddd
+}
+
+.dot.ok {
+  background: #22c55e;
+  border-color: #22c55e
+}
+
+.dot.no {
+  background: #fff
+}
+
+.hint {
+  margin: 10px 0 0;
+  opacity: .85
+}
